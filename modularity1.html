@@ -19,7 +19,8 @@
 	    		<p class="instruction-text">Style a table full of data so that it looks nicer than the brower defaults.</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
+						<table class="table1">
+							<tbody>
 							<tr>
 								<td>0</td>
 								<td>Sean</td>
@@ -32,12 +33,15 @@
 								<td>Lourie</td>
 								<td>@metaraine</td>
 							</tr>
+							</tbody>
+							<tfoot>
 							<tr>
 								<td>2</td>
 								<td>Matt</td>
 								<td>Null</td>
 								<td>@nullempire</td>
 							</tr>
+							</tfoot>
 						</table>
 				    <!-- End editable area -->
 					</div>
@@ -45,7 +49,7 @@
 	    		<p class="instruction-text">It should also handle header rows...</p>
 					<div class="instruction-answer">
 						<!-- Edit here -->
-						<table>
+						<table class="table1">
 							<thead>
 								<tr>
 									<th>#</th>
@@ -67,13 +71,15 @@
 									<td>Lourie</td>
 									<td>@metaraine</td>
 								</tr>
+							</tbody>	
+							<tfoot>
 								<tr>
 									<td>2</td>
 									<td>Matt</td>
 									<td>Null</td>
 									<td>@nullempire</td>
 								</tr>
-							</tbody>
+							</tfoot>
 						</table>
 				    <!-- End editable area -->
 					</div>
@@ -86,12 +92,12 @@
 	    		<p class="instruction-text">Three columns, three prominent numbers, three small labels</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="table2">
 			    		<tbody>
 			    			<tr>
-			    				<td><div>7</div><div>followers</div></td>
-			    				<td><div>59</div><div>starred</div></td>
-			    				<td><div>28</div><div>following</div></td>
+			    				<td><div class="big-number">7</div><div class="byline">followers</div></td>
+			    				<td><div class="big-number">59</div><div class="byline">starred</div></td>
+			    				<td><div class="big-number">28</div><div class="byline">following</div></td>
 			    			</tr>
 			    		</tbody>
 			    	</table>
@@ -105,10 +111,10 @@
 	    		<p class="instruction-text">Bar widths are set in the HTML as if they were populated from the back-end. Everything else should be styled with CSS.</p>
 					<div class="instruction-answer">
 			    	<!-- Edit here -->
-			    	<table>
+			    	<table class="table3">
 			    		<tr>
 			    			<th>Javascript</th>
-			    			<td><div style="width: 99%">21%</div></td>
+			    			<td><div style="width: 99%"></div><div>21%</div></td>
 			    		</tr>
 			    		<tr>
 			    			<th>Ruby</th>

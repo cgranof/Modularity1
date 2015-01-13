@@ -1,1 +1,43 @@
-/* ADD YOUR STYLES HERE */
+table.table1 {
+	border-collapse: collapse;
+	border-spacing: 100px 10px;
+	width: 100%;
+
+}
+
+th,
+td {
+	border-bottom: 1px solid #cecfd5;
+	padding: 10px;
+	
+}
+
+tfoot tr:last-child td {
+	border-bottom: 0;
+}
+
+table.table2 {
+	text-align: center
+}
+
+th,
+td {
+	border-top: 1px solid #cecfd5;	
+}
+
+.big-number {
+	font-size: 40px;
+	font-weight: bold;
+	;
+}
+
+.byline {
+	font-size: 12px;
+	color: #cecfd5;
+}
+
+table.table3 {
+	width: auto; 	
+}
+
+
